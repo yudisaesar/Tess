@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset1" value="name:id;datatype:int,name:nama_produk;datatype:string,name:no_batch;datatype:int,name:lot_no;datatype:int,name:cont_no;datatype:int,name:potency;datatype:int,name:exp_date;datatype:date,name:tailing_factor_total;datatype:real,name:sst_total;datatype:real,name:bracket_total;datatype:real,name:nama_analyst;datatype:string" />
+</info>

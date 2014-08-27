@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset1" value="name:jenis_uar;datatype:string,name:name_system;datatype:string,name:name;datatype:string,name:department;datatype:string,name:phone;datatype:int,name:username;datatype:string,name:uar_details;datatype:string,name:user_role_remove;datatype:string,name:user_role_added;datatype:string,name:reason_request;datatype:string,name:training_needed;datatype:string" />
+</info>
