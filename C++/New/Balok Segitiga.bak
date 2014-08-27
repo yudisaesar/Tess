@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<conio.h>
+//Celcius to Kelvin
+int kelvin(int celcius, int ket)
+	{int kelvin=celcius+ket;
+   	return kelvin;}
+int fahrenheit(int c,int rumus,int ttp)
+	{	int balok=(celcius*rumus)+ttp;return fahrenheit; }
+
+void main()
+{ int c,f,hsl,rumus=0,ket=273,rumus=1,8,ttp=32;
+	clrscr();
+   printf("Ketikkan Celcius    : ");scanf("%i",&c);
+   printf("Ketetapan           : ");
+   printf("Fahrenheit          : ");
+   hsl=kelvin(celcius,ket);
+   printf("Hasil Konverter Celcius ke Kelvin          : %i\n",hsl);
+   ls=balok(a,l,t);
+   printf("Hasil Konverter Celcius ke Fahrenheit      : %i\n",hsl);
+   getche();
+   }

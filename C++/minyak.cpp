@@ -1,0 +1,34 @@
+#include <stdio.h>
+#include <conio.h>
+void main()
+{	int premium,solar,premix;
+   int hp,hs,hpx,lt;
+   clrscr();
+   gotoxy(10,5);
+   printf("Harga Premium per liter : ");scanf("%i",&premium);
+   gotoxy(10,6);
+   printf("Harga Solar per liter   : ");scanf("%i",&solar);
+   gotoxy(10,7);
+   printf("Harga premix per liter  : ");scanf("%i",&premix);
+   printf("\n");
+   clrscr();
+   gotoxy(10,8);
+   printf("\n DAFTAR HARGA BAHAN BAKAR ");
+   gotoxy(10,9);
+   printf("\n------------------------- ");
+   gotoxy(10,10);
+   printf("\n Liter Premium Solar Premix");
+   gotoxy(10,11);
+   printf("\n------------------------- ");
+
+   gotoxy(10,12);
+   for (lt=1;lt<=10;lt++)
+   {	hp=lt*premium;
+   	hs=lt*solar;
+      hpx=lt*premix;
+
+	   printf("\n   %i    %i     %i     %i ",lt,hp,hs,hpx);
+      }
+      printf("\n-------------------------------");
+      getche();
+}

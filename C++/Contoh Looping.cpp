@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <conio.h>
+void main ()
+{int i,hsl;
+//Looping A-Z
+for (i=0;i<=10;i+=2)
+{printf("%i\n",i);
+hsl+=i;}
+//untuk mencetak angka Genap
+printf("Hasil Looping  :  %i",hsl);
+//looping Z - A
+for (i=10;i>=0;i--){printf("\n%i",i);}
+//rumus
+for (i=1024;i>=1;i/=2){printf("\n%i",i);}
+getche();
+}

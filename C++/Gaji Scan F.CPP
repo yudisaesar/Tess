@@ -1,0 +1,27 @@
+/*Program Gaji*/
+#include <stdio.h>//panggil library
+#include <conio.h>
+void main() //program utama
+{//preparation -> deklarasikan variable yang dibutuhkan
+char np[20];
+long gp=0,ja=0,ta=0,ti=0,tb=0,gk=0;
+//input dari kibord--> scanf
+printf("Nama Pegawai  : ");scanf("%s",np);
+printf("Gaji Pokok    : ");scanf("%i",&gp);
+printf("Jumlah Anak   : ");scanf("%i",&ja);
+//proses
+ta=ja*gp*10/100,ti=gp*5/100,tb=(2+ja)*25000,gk=gp+ta+ti+tb;
+printf("SLIP GAJI PEGAWAI\n");
+printf("-----------------\n");
+printf("Nama Pegawai    : %s\n",np);
+printf("Gaji Pokok      : %i\n",gp);
+printf("Jumlah Anak     : %i\n",ja);
+printf("Pendapatan\n");
+printf("----------\n");
+printf("Tunjangan Anak  : %i\n",ta);
+printf("Tunjangan Istri : %i\n",ti);
+printf("Tunjangan Beras : %i\n",tb);
+printf("Gaji Kotor      : %i\n",gk);
+printf("-------------------------- \n");
+getche ();
+}

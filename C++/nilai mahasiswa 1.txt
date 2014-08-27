@@ -1,0 +1,23 @@
+//Pencabangan--> IF
+#include<stdio.h>
+#include<conio.h>
+#include<string.h>
+void main()
+{//deklarasi variable
+char nama [10],hasil[10];int nilai=10;
+//input data
+printf("Nama Mahasiswa:");scanf("%s",nama);
+printf("Nilai         :");scanf("%i",&nilai);
+//proses filtering
+if (nilai>=85)
+   {strcpy(hasil,"Excelent");}
+else if(nilai>70)
+   {strcpy(hasil,"GOOD");}
+else if(nilai>=60)
+   {strcpy(hasil,"Fair");}
+else
+   {strcpy(hasil,"Poor");}
+clrscr();//bersihkan layar
+//cetak outputnya
+printf("saudara %s berpredikat %s dengan nilai %i",nama,hasil,nilai);
+getche();}

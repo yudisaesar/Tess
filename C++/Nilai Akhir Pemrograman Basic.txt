@@ -1,0 +1,20 @@
+/*Nilai Akhir*/
+#include <stdio.h>//panggil library
+#include <conio.h>
+void main() //program utama
+{//preparation -> deklarasikan variable yang dibutuhkan
+char np[10]="Tasya";
+long nk=100,nt=80,nf=75,nuts=80,nuas=70,na=0;
+//proses
+na=(nk*10/100)+(nt*10/100)+(nf*10/100)+(nuts*30/100)+(nuas*40/100);
+printf("NILAI AKHIR PEMROGRAMAN BASIC\n");
+printf("-----------------\n");
+printf("Nama  Siswa     : %s\n",np);
+printf("Nilai Kehadiran : %i\n",nk);
+printf("Nilai Tugas     : %i\n",nt);
+printf("Nilai Formatif  : %i\n",nf);
+printf("Nilai UTS       : %i\n",nuts);
+printf("Nilai UAS       : %i\n",nuas);
+printf("Nilai Akhir     : %i\n",na);
+getche ();
+}
